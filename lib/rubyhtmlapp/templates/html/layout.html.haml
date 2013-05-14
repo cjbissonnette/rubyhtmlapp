@@ -1,0 +1,9 @@
+!!! 5
+%html
+  %head
+    %title= title ||= ""
+    :javascript
+      #{inline_js}
+    :css
+      #{inline_css}
+  %body= yield

@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require '<%= @params[:name] %>'
+
+<%= @params[:constant_name] %>::CLI.start(ARGV)
